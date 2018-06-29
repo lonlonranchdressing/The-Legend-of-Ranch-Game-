@@ -1,0 +1,5 @@
+[
+null,
+{"id":1,"battlerName":"RanchBattler","characterIndex":0,"characterName":"Ranch","classId":1,"equips":[0,0,0,0,4],"faceIndex":0,"faceName":"Ranch","traits":[],"initialLevel":1,"maxLevel":99,"name":"Master Ranch","nickname":"Ranch","note":"","profile":""},
+{"id":2,"battlerName":"logan battler","characterIndex":0,"characterName":"logan walk","classId":3,"equips":[3,0,2,3,0],"faceIndex":7,"faceName":"logan","traits":[],"initialLevel":5,"maxLevel":99,"name":"Logan Lebork","nickname":"Logan","note":"","profile":""}
+]
