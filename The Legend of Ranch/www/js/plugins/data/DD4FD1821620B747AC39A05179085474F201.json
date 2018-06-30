@@ -1,0 +1,14 @@
+{
+    "uid": "DD4FD1821620B747AC39A05179085474F201",
+    "lastModificationTime": 0,
+    "items": {
+        "name": "SumRndmDde Extensions",
+        "type": "game_script",
+        "order": 10,
+        "content": "",
+        "parentId": "ROOT",
+        "folder": true,
+        "scriptType": 0,
+        "decoded": true
+    }
+}

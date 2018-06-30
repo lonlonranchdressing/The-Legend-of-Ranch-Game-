@@ -1,0 +1,138 @@
+{
+    "uid": "2D6DDCFB823A264D876851404FED829E5C22",
+    "lastModificationTime": 0,
+    "items": {
+        "name": "SRD_SuperMessageEditor",
+        "type": "event_command",
+        "parentId": "FF737F6D85E218483628F9278BF6FDB8B0F9",
+        "order": 0,
+        "displayName": "$$SRD_SuperMessageEditor.C00E80871FCE4843596BB49525161921E609",
+        "windowTitle": "$$SRD_SuperMessageEditor.C00E80871FCE4843596BB49525161921E609",
+        "id": "gs.ShowMessageEditor",
+        "group": "$$8C18C980KCA7CA4FCDS99EFEC6824693DD97",
+        "subGroup": "$$8C18C980KCA7CA4FCDS99EFEC6824693DD97",
+        "windowSize": {
+            "w": 671
+        },
+        "expanded": false,
+        "defaultValue": {
+            "waitForCompletion": 1,
+            "duration": 15,
+            "expressionId": null,
+            "custom": {
+                "object": {
+                    "x": 0,
+                    "y": 0,
+                    "size": {
+                        "width": 300,
+                        "height": 100
+                    }
+                }
+            },
+            "message": "",
+            "position": 0,
+            "characterId": 0,
+            "partial": 0
+        },
+        "inlineImage": {
+            "formula": "return GSIsNull(p.expressionId) ? GS.VN.resourceForCharacter(p.characterId) : GS.VN.resourceForExpression(p.expressionId);",
+            "folder": "Graphics/Characters"
+        },
+        "fullSizeItems": [
+            {
+                "valueFormula": "return lcsg(p.message) || '[No Message Entered]';",
+                "type": "GSQTextArea",
+                "attribute": "message",
+                "defaultValue": "",
+                "valueTranslator": {
+                    "write": "return GS.VN.writeMessageData(v, p)"
+                },
+                "localizable": {
+                    "data": {
+                        "cid": "characterId"
+                    }
+                }
+            }
+        ],
+        "quickItems": [
+            {
+                "type": "GSQPopupField",
+                "attribute": "editor",
+                "identifier": "editor",
+                "dataSource": [
+                    "$$SRD_SuperMessageEditor.722DA0F97044554842688FA5AEE952034A4C"
+                ],
+                "valueTranslator": {
+                    "read": "return 1"
+                },
+                "valueFormula": "if(p.editor === 0) { SRD.SuperMessageEditor.openTextEditorWindow(p); p.editor = 1; };  return lcs('SRD_SuperMessageEditor.146A07670026414D2039DB70C0891181AECC');"
+            },
+            {
+                "label": "$$1CCE5315K1F61A4059SBC64E0B6CECA383C3",
+                "valueFormula": "return fmtRecord('characters', p.characterId || 0);",
+                "attribute": "characterId",
+                "type": "GSQDataRecordField",
+                "updateLocalizationData": true,
+                "dataSource": "characters",
+                "variableButton": {
+                    "dataSource": "strings"
+                }
+            },
+            {
+                "label": "$$9A11A7A89FAF6747576B3C910EA4ECD5EBC7",
+                "valueFormula": "return fmtResource(p.voice);",
+                "variableButton": {
+                    "dataSource": "strings"
+                },
+                "attribute": "voice",
+                "type": "GSQPopupField",
+                "dialog": {
+                    "uid": "dialog.selectAudioResource",
+                    "parameters": {
+                        "folder": "Audio/Sounds"
+                    }
+                },
+                "icon": {
+                    "name": "listen-01"
+                }
+            },
+            {
+                "label": "$$8EC8F86A73D0524F417974A56C2120B44D7F",
+                "valueFormula": "return !GSIsNull(p.expressionId) ? fmtRecord('characterExpressions', p.expressionId) : lcs('FB0EA56B5F9B9146719B5F66A690FC3B9928');",
+                "type": "GSQDataRecordField",
+                "dataSource": "characterExpressions",
+                "attribute": "expressionId",
+                "allowEmptySelection": true
+            },
+            {
+                "label": "",
+                "valueFormula": "return fmtDuration(fmtNumVar(p.duration))",
+                "valueTranslator": {
+                    "write": "return v / 1000 * GS.CONST.GAME_FRAME_RATE",
+                    "read": "return ROUND(v / GS.CONST.GAME_FRAME_RATE * 1000)"
+                },
+                "type": "GSQStepper",
+                "attribute": "duration",
+                "identifier": "duration",
+                "variableButton": {
+                    "dataSource": "numbers"
+                },
+                "minimum": 0,
+                "maximum": 999999999,
+                "lockable": true
+            },
+            {
+                "type": "GSQPopupField",
+                "attribute": "waitForCompletion",
+                "identifier": "waitForCompletion",
+                "dataSource": [
+                    "$$2EA7A7BF12D3404F62094CA6644784A9FC40",
+                    "$$97A5E676K2351A43FCSB0DFEBB5CF7A73243"
+                ],
+                "valueFormula": "return (p.waitForCompletion ? lcs('97A5E676K2351A43FCSB0DFEBB5CF7A73243') : lcs('2EA7A7BF12D3404F62094CA6644784A9FC40'))"
+            }
+        ],
+        "sections": [],
+        "rawContent": "{\n    \"parentId\": \"AFAD6CEFK59C1A4298SBABFE7AEC1B964622\",\n    \"displayName\": \"$$SRD_SuperMessageEditor.C00E80871FCE4843596BB49525161921E609\",\n    \"windowTitle\": \"$$SRD_SuperMessageEditor.C00E80871FCE4843596BB49525161921E609\",\n    \"type\": \"event_command\",\n    \"id\": \"gs.ShowMessageEditor\",\n    \"group\": \"$$8C18C980KCA7CA4FCDS99EFEC6824693DD97\",\n    \"subGroup\": \"$$8C18C980KCA7CA4FCDS99EFEC6824693DD97\",\n    \"windowSize\": {\n        \"w\": 671\n    },\n    \"expanded\": false,\n    \"defaultValue\": { \"waitForCompletion\": 1, \"duration\": 15, \"expressionId\": null, \"custom\": { \"object\": { \"x\": 0, \"y\": 0, \"size\": { \"width\": 300, \"height\": 100 }}}, \"message\": \"\", \"position\": 0, \"characterId\": 0, \"partial\": 0 },\n    \"inlineImage\": { \"formula\": \"return GSIsNull(p.expressionId) ? GS.VN.resourceForCharacter(p.characterId) : GS.VN.resourceForExpression(p.expressionId);\", \"folder\": \"Graphics/Characters\" },\n    \"fullSizeItems\": [\n        {\n            \"valueFormula\": \"return lcsg(p.message) || '[No Message Entered]';\",\n            \"type\": \"GSQTextArea\",\n            \"attribute\": \"message\",\n            \"defaultValue\": \"\",\n            \"valueTranslator\": { \"write\": \"return GS.VN.writeMessageData(v, p)\" },\n            \"localizable\": { \"data\": { \"cid\": \"characterId\" } }\n        }\n    ],\n    \"quickItems\": [\n        {\n            \"type\": \"GSQPopupField\",\n            \"attribute\": \"editor\",\n            \"identifier\": \"editor\",\n            \"dataSource\": [\"$$SRD_SuperMessageEditor.722DA0F97044554842688FA5AEE952034A4C\"],\n            \"valueTranslator\": { \"read\": \"return 1\" },\n            \"valueFormula\": \"if(p.editor === 0) { SRD.SuperMessageEditor.openTextEditorWindow(p); p.editor = 1; };  return lcs('SRD_SuperMessageEditor.146A07670026414D2039DB70C0891181AECC');\"\n        },\n        {\n            \"label\": \"$$1CCE5315K1F61A4059SBC64E0B6CECA383C3\",\n            \"valueFormula\": \"return fmtRecord('characters', p.characterId || 0);\",\n            \"attribute\": \"characterId\",\n            \"type\": \"GSQDataRecordField\",\n            \"updateLocalizationData\": true,\n            \"dataSource\": \"characters\",\n            \"variableButton\": { \"dataSource\": \"strings\" }\n        },\n        GSQ.CONTROLS.VOICE_SELECTION,\n        {\n            \"label\": \"$$8EC8F86A73D0524F417974A56C2120B44D7F\",\n            \"valueFormula\": \"return !GSIsNull(p.expressionId) ? fmtRecord('characterExpressions', p.expressionId) : lcs('FB0EA56B5F9B9146719B5F66A690FC3B9928');\",\n            \"type\": \"GSQDataRecordField\",\n            \"dataSource\":\"characterExpressions\",\n            \"attribute\": \"expressionId\",\n            \"allowEmptySelection\": true\n        },\n        Object.override(GSQ.CONTROLS.DURATION, { \"lockable\": true, \"label\": \"\" }),\n        GSQ.CONTROLS.WAIT_FOR_COMPLETION\n    ],\n    \"sections\": [\n      \n    ]\n}"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "uid": "D1CE237F11317043EE98FBA68FE7130CED1D",
+    "lastModificationTime": 0,
+    "items": {
+        "name": "SRD_SuperMessageEditor",
+        "type": "application_language_bundle",
+        "parentId": "934EEFB56FCD83468D7BAD12AA152EFDC942",
+        "order": 0,
+        "phrases": {
+            "C00E80871FCE4843596BB49525161921E609": "Show Message (Editor)",
+            "4CAA464057A4D745EF6875F0F648313707B5": "Click to Edit!",
+            "146A07670026414D2039DB70C0891181AECC": "Message Editor",
+            "722DA0F97044554842688FA5AEE952034A4C": "Open Editor",
+            "57B1ABD579990247C45BC9F1644F4216C467": "[No Message Entered]"
+        },
+        "rawContent": "{\n    \"name\": \"SuperMessageEditor\",\n    \"parentId\": \"2B64D552KE2D4A49F9SB3A9EE72E018E0396\",\n    \"phrases\": { \n        \"C00E80871FCE4843596BB49525161921E609\": \"Show Message (Editor)\",\n        \"4CAA464057A4D745EF6875F0F648313707B5\": \"Click to Edit!\",\n        \"146A07670026414D2039DB70C0891181AECC\": \"Message Editor\",\n        \"722DA0F97044554842688FA5AEE952034A4C\": \"Open Editor\",\n        \"57B1ABD579990247C45BC9F1644F4216C467\": \"[No Message Entered]\"\n    } \n}"
+    }
+}
