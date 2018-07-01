@@ -18,7 +18,7 @@ null,
 {"id":16,"expanded":true,"name":"intro2","order":2,"parentId":15,"scrollX":1090,"scrollY":609.3333333333334},
 {"id":17,"expanded":true,"name":"intro3","order":3,"parentId":16,"scrollX":1090,"scrollY":609.3333333333334},
 {"id":18,"expanded":true,"name":"home inside letter gone","order":6,"parentId":14,"scrollX":1228.5,"scrollY":692.25},
-{"id":19,"expanded":true,"name":"Overworld 3","order":19,"parentId":0,"scrollX":2180,"scrollY":1218.6666666666667},
-{"id":20,"expanded":false,"name":"Shop 2","order":20,"parentId":19,"scrollX":1401.4285714285713,"scrollY":783.4285714285713},
+{"id":19,"expanded":false,"name":"Overworld 3","order":19,"parentId":0,"scrollX":2180,"scrollY":1218.6666666666667},
+{"id":20,"expanded":false,"name":"Shop 2","order":20,"parentId":19,"scrollX":2180,"scrollY":1218.6666666666667},
 {"id":21,"expanded":true,"name":"Overworld 4","order":21,"parentId":0,"scrollX":1401.4285714285713,"scrollY":783.4285714285713}
 ]

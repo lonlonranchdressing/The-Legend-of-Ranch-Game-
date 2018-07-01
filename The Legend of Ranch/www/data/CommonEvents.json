@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"list":[{"code":315,"indent":0,"parameters":[0,0,0,0,300,true]},{"code":0,"indent":0,"parameters":[]}],"name":"Scroll of common knowledge","switchId":1,"trigger":0},
-{"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":2,"list":[{"code":333,"indent":0,"parameters":[-1,1,13]},{"code":0,"indent":0,"parameters":[]}],"name":"uncharged","switchId":1,"trigger":0},
 {"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
 ]
