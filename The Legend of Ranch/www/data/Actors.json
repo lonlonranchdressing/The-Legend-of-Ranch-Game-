@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"battlerName":"RanchBattler","characterIndex":0,"characterName":"ranchwalk","classId":1,"equips":[0,0,0,0,4],"faceIndex":0,"faceName":"Ranch","traits":[],"initialLevel":1,"maxLevel":99,"name":"Ranch Dressing","nickname":"Ranch","note":"","profile":""},
-{"id":2,"battlerName":"logan battler","characterIndex":0,"characterName":"logan walk","classId":3,"equips":[3,0,2,3,0],"faceIndex":7,"faceName":"logan","traits":[],"initialLevel":6,"maxLevel":99,"name":"Logan Lebork","nickname":"Logan","note":"","profile":""},
+{"id":2,"battlerName":"logan battler","characterIndex":0,"characterName":"logan walk","classId":3,"equips":[3,0,2,3,0],"faceIndex":7,"faceName":"logan","traits":[],"initialLevel":8,"maxLevel":99,"name":"Logan Lebork","nickname":"Logan","note":"","profile":""},
 {"id":3,"battlerName":"angellica battler","characterIndex":0,"characterName":"angellica","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Angellica","traits":[],"initialLevel":20,"maxLevel":99,"name":"Angelica","nickname":"Angellica","note":"<guardian force>\n<battle command: skill_list />","profile":""},
 {"id":4,"battlerName":"demona battler","characterIndex":0,"characterName":"demona","classId":6,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"demona","traits":[],"initialLevel":20,"maxLevel":99,"name":"Demona","nickname":"Demona","note":"<guardian force>\n<battle command: skill_list />","profile":""},
 {"id":5,"battlerName":"ghost-default_1_orig","characterIndex":6,"characterName":"Monster","classId":7,"equips":[0,0,0,0,0],"faceIndex":6,"faceName":"Monster","traits":[],"initialLevel":20,"maxLevel":99,"name":"Grim Reaper","nickname":"Grim","note":"<guardian force>\n<battle command: skill_list />","profile":""}
