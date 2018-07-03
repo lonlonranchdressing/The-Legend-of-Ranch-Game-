@@ -6,6 +6,8 @@ null,
 {"id":4,"atypeId":1,"description":"you found this in a field somewhere a long time ago. ","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":145,"name":"Cheap Ring","note":" <Cannot Sell>","params":[0,0,0,0,1,0,0,0],"price":100},
 {"id":5,"atypeId":2,"description":"This ring increases your defense","etypeId":5,"traits":[],"iconIndex":145,"name":"Ring of Defense","note":"","params":[0,0,0,5,0,5,0,0],"price":300},
 {"id":6,"atypeId":1,"description":"Armour composed of stitched/laminated linen fabrics\nreinforced with animal skins.","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0.05}],"iconIndex":135,"name":"Hoplite Armor","note":"","params":[0,0,0,15,0,0,0,0],"price":200},
-{"id":7,"atypeId":0,"description":"","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
-{"id":8,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0}
+{"id":7,"atypeId":1,"description":"","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":1889,"name":"Hero's Tunic","note":"","params":[20,0,0,20,0,20,0,0],"price":1000},
+{"id":8,"atypeId":7,"description":"","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":1656,"name":"Merlin's Robe","note":"","params":[0,0,0,20,0,20,0,0],"price":1000},
+{"id":9,"atypeId":7,"description":"","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":1381,"name":"Merlin's Hat","note":"","params":[0,50,0,20,20,0,0,0],"price":1000},
+{"id":10,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0}
 ]
